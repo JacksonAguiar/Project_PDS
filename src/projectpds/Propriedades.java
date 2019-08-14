@@ -18,21 +18,21 @@ public class Propriedades {
     /**
      * Método que retorna a sua casa.
      *
-     * @param casa String - a casa do jogo
+     * @param house String - a casa do jogo
      * @return String - o nome da casa
      */
-    public String casa(String casa) {
-        return "Casa: " + casa;
+    public String house(String house) {
+        return "Casa: " + house;
     }
 
     /**
      * Método que retorna o seu carro.
      *
-     * @param carro String - o carro do jogo
+     * @param car String - o carro do jogo
      * @return String - o nome do carro
      */
-    public String carro(String carro) {
-        return "Carro: " + carro;
+    public String car(String car) {
+        return "Carro: " + car;
     }
 
     /**
