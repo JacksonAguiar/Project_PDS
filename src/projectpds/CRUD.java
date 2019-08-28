@@ -17,7 +17,8 @@ public class CRUD {
     /**
      * Método que salva o objeto em um Database
      *
-     * @return Boolean - Retorno da conexão
+   Boolean salvar() {
+        return true;  * @return Boolean - Retorno da conexão
      */
     public Boolean salvar() {
         return true;

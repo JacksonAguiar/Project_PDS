@@ -17,20 +17,22 @@ public class Submit {
 
     /**
      * Método que mostra o inicio do teste.
+     *
+     * @return String - teste visualização
      */
-    private void teste() {
-        System.out.println("iniciando teste...");
+    public String teste() {
+        return "iniciando teste...";
     }
 
     /**
      * Método que mostra os dados de um objeto
      *
-     * @param data String[] - dado a ser vizualizado
+     * @param data String - dado a ser vizualizado
+     * @return String - resultado dos dados recebidos
      */
-    private void data(String[] data) {
-        for (String string : data) {
-            System.out.println(string);
-        }
+    public String data(String data) {
+        
+        return data;
     }
 
     /**
@@ -38,7 +40,7 @@ public class Submit {
      *
      * @return Strin - Acesso atualizado
      */
-    private String acess() {
+    public String acess() {
         return "Acesso autorizado!";
     }
 }

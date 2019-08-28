@@ -19,9 +19,11 @@ public class Mostrar {
      * Método que mostra um usuario
      *
      * @param usu String - Usuario a ser vizualizado
+     *@return String - Retorna o usuario
      */
-    public void usuario(String usu) {
-        System.out.println("-> " + usu);
+     
+    public String usuario(String usu) {
+      return "-> " + usu;
     }
 
     /**

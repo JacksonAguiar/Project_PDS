@@ -19,9 +19,10 @@ public class LastClass {
      * Método que mostra um computador.
      *
      * @param pc String - um computador
+     * @return String - visualização
      */
-    public void pc(String pc) {
-        System.out.println("Computador 1: " + pc);
+    public String pc(String pc) {
+        return "Computador 1: " + pc;
     }
 
     /**
